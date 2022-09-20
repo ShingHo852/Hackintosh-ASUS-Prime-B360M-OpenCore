@@ -1,4 +1,4 @@
-# Hackintosh ASUS B360M OpenCore
+# Hackintosh ASUS Prime B360M OpenCore
 
 **macOS Version: Monterey 12.6 (21G115)**
 
