@@ -19,15 +19,13 @@
 
 **Download CorpNewt's [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)**
 
-**Choose Macmini8,1**
+**Macmini8,1**
 
-The Type part gets copied to Generic -> SystemProductName
+The `Serial` part gets copied to Generic -> SystemSerialNumber
 
-The Serial part gets copied to Generic -> SystemSerialNumber
+The `Board` Serial part gets copied to Generic -> MLB
 
-The Board Serial part gets copied to Generic -> MLB
-
-The SmUUID part gets copied to Generic -> SystemUUID
+The `SmUUID` part gets copied to Generic -> SystemUUID
 
 ## BIOS Setting
 | Disabled | Enabled |
