@@ -2,7 +2,7 @@
 
 **macOS Version: Monterey 12.6 (21G115)**
 
-**OpenCore Version: [0.8.0 Offical](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.0)**
+**OpenCore Version: [0.8.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.0)**
 
 
 ## Configuration
