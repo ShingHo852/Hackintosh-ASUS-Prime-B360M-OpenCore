@@ -19,21 +19,18 @@
 
 **Download CorpNewt's [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)**
 
-**Macmini8,1**
+**Macmini8,1 for iGPU**
 
-The `Serial` part gets copied to Generic -> SystemSerialNumber
+- The `Serial` part gets copied to Generic -> SystemSerialNumber
 
-The `Board` Serial part gets copied to Generic -> MLB
+- The `Board` Serial part gets copied to Generic -> MLB
 
-The `SmUUID` part gets copied to Generic -> SystemUUID
+- The `SmUUID` part gets copied to Generic -> SystemUUID
 
 ## BIOS Setting
-| Disabled | Enabled |
-| :------: | :-----: |
-| Fast Boot | VT-x |
-| Secure Boot | Above 4G Decoding |
-| VT-d | Execute Diable Bit |
-| CSM | EHCI/XHCI Handoff |
-| Intel SGX | OsType: UEFI |
-| Intel Platform Trust | 顯存: 64MB |
-| CFG Lock | |
+
+- Update to the latest BIOS
+
+- Follow the [guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) on OpenCore
+
+Reminder: **Hyper-Threading & Execute Disable Bit** can be ignore if you can't find these options
